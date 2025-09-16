@@ -45,7 +45,7 @@
 - How do you align something to the left or right?
 - What widget adds space around content?
 
-
+## Code defintions
 
 |Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
