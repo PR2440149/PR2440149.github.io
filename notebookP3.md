@@ -6,6 +6,7 @@
   - [Definitions with structures](#flutter-definitons)
 - [Code definitions](#code-defintions)
 - [Day 2](#day-2)
+- [Flutter Definitions](#flutter_definitions)
 
 - [Notebook Style Guide](#Markdown-Style-Guide-for-Coding-Notebooks)
 
@@ -72,12 +73,12 @@
 
 
 
-
+## Flutter Definitions with structures
 
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
-|      | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
+|main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
 |      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
 |      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
 |      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
