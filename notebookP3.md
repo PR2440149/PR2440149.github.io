@@ -78,20 +78,20 @@
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
-|main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
-|      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
-|      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
-|      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
-|      | A widget that shows things side-by-side. | `Row(...)` |  |  |
-|      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
-|      | A widget to display text on the screen. | `Text('Hello')` |  |  |
-|      | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
-|      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
-|      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
-|      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
-|      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
-|      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
-|      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+|main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |turning on phone   |  |
+|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |setting up an account |  |
+|scaffold   | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |templates  |  |
+|column     | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |long division  |  |
+|row        | A widget that shows things side-by-side. | `Row(...)` |terms, definitons, examples |  |
+|container  | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |background image  |  |
+|text       | A widget to display text on the screen. | `Text('Hello')` ||  |
+|image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |  google images  |  |
+|ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |eplosive button  |  |
+|onPressed   | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
+|statelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |welcome page  |  |
+|navigator   | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+|@override   | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+|build()     | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |code for picturerwes  |  |
 |      | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
 |      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
 |      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
