@@ -70,10 +70,10 @@
 |abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
 |override | Changing how a built-in or inherited function behaves. | `@override` |  |  |
 |void     | A function that does not return a value. | `void printMessage() {}` |  |  |
-| | | |  |  |
-| | | |  |  |
-| | | |  |  |
-| | | |  |  |
+|Arithmetic operaters | | |  |  |
+|Compound operaters | | |  |  |
+|+ - * / % | | |  |  |
+|inteiger max value | | |  |  |
 | | | |  |  |
 | | | |  |  |
 | | | |  |  |
