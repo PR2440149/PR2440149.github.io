@@ -74,10 +74,12 @@
 |Compound operaters | | |  |  |
 |+ - * / % | | |  |  |
 |inteiger max value | | |  |  |
-| | | |  |  |
-| | | |  |  |
-| | | |  |  |
-| | | |  |  |
+|Maximun int |The max value an int can hold: 2147483647 |Integer.MAX_VALUE |  |  |
+|Minimum Int |The minimun value an in can hold: -2147483647 |Integer.MIN_VALUE |  |  |
+|integer overflow |Integer.MAX_VALUE + 1 == MIN_VALUE, it wraps around | |  |  |
+|Integer underflow |Integer.MIN_VALUE - 1 == MAX_VALUE, it wraps around | |  |  |
+|round off error |an approx. of the actual value, result is rounded to the nearest value that fits within the avaliable bits| |  |  |
+
 
 
 ## Flutter Definitions with structures
