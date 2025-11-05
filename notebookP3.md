@@ -81,6 +81,7 @@
 |round off error |an approx. of the actual value, result is rounded to the nearest value that fits within the avaliable bits| |  |  |
 |dot notation |methods are called on objects using a dot after the object name| object.method(value) |  |  |
 |overloaded method/ function or constructor |Uses the same name, but it has different parameters|pizza(), pizza(string toppins) 2 constructors, first is a default pizza, 2nd has 1 topping |  |  |
+|concatenate |to combine strings with other strings and/or variables| string greeting: "My name is" + name "."; |  |  |
 
 
 
