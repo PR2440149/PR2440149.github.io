@@ -79,6 +79,8 @@
 |integer overflow |Integer.MAX_VALUE + 1 == MIN_VALUE, it wraps around | |  |  |
 |Integer underflow |Integer.MIN_VALUE - 1 == MAX_VALUE, it wraps around | |  |  |
 |round off error |an approx. of the actual value, result is rounded to the nearest value that fits within the avaliable bits| |  |  |
+|dot notation |methods are called on objects using a dot after the object name| object.method(value) |  |  |
+|overloaded method/ function or constructor |Uses the same name, but it has different parameters|pizza(), pizza(string toppins) 2 constructors, first is a default pizza, 2nd has 1 topping |  |  |
 
 
 
@@ -109,6 +111,7 @@
 |BuildContext| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
 |Super.key   | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
 |const.      | A keyword that means the value won't change and is set once. | `const` |  |  |
+
 
 
 
