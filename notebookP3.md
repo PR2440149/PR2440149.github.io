@@ -5,9 +5,10 @@
   - [Practice](#practice)
   - [Definitions with structures](#flutter-definitons)
 - [Code definitions](#code-defintions)
+  - [String notes](#string-notes) 
 - [Day 2](#day-2)
 - [Flutter Definitions](#flutter_definitions)
-
+-
 - [Notebook Style Guide](#Markdown-Style-Guide-for-Coding-Notebooks)
 
 
@@ -87,7 +88,6 @@
 
 ## Flutter Definitions with structures
 
-
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
 |main()| A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |turning on phone   | void main() => runApp(MyPortfolioApp());  |
@@ -113,8 +113,9 @@
 |Super.key   | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
 |const.      | A keyword that means the value won't change and is set once. | `const` |  |  |
 
-
-
+[String notes](#string-notes)
+### string notes
+  Strings have indices(Plural for index,) which starts at zero. "Hello" has indices 0(H), 1(E), 2(L), 3(L), 4(0).
 
 
 
