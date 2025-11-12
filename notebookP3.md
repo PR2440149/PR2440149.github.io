@@ -50,6 +50,8 @@
 
 |Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
+| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
+| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 |variable | A named container used to store a value that may change. | `var x = 5;` |  title: 'TSA Portfolio',  |
 |constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
 |data type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
@@ -86,6 +88,14 @@
 
 
 
+
+
+
+
+
+
+
+
 ## Flutter Definitions with structures
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
@@ -112,6 +122,14 @@
 |BuildContext| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
 |Super.key   | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
 |const.      | A keyword that means the value won't change and is set once. | `const` |  |  |
+
+
+
+
+
+
+
+
 
 [String notes](#string-notes)
 ### string notes
