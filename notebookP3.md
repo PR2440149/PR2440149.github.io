@@ -122,9 +122,12 @@
 |BuildContext| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
 |Super.key   | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
 |const.      | A keyword that means the value won't change and is set once. | `const` |  |  |
-
-
-
+|Index       | location value of each character in a string or list starting at 0|"Hello" index of e is 1|||
+|substring   |part of a larger string |'llo' is a subString of "Hello" |||
+||||||
+||||||
+||||||
+||||||
 
 
 
@@ -134,6 +137,10 @@
 [String notes](#string-notes)
 ### string notes
   Strings have indices(Plural for index,) which starts at zero. "Hello" has indices 0(H), 1(E), 2(L), 3(L), 4(0).
+  Final index in a string is length - 1;
+
+  ### string methods table
+<img width="889" height="368" alt="image" src="https://github.com/user-attachments/assets/f6749e18-8cd6-4625-b244-2a3e1d57fe9b" />
 
 
 
